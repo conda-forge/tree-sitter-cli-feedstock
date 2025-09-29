@@ -5,7 +5,7 @@ set -o xtrace -o nounset -o pipefail -o errexit
 export CARGO_PROFILE_RELEASE_STRIP=symbols
 export CARGO_PROFILE_RELEASE_LTO=fat
 
-export CFLAGS="${CFLAGS} -D_BSD_SOURCE"
+export CFLAGS="${CFLAGS} -D_BSD_SOURCE -Wno-implicit-function-declaration"
 
 # check licenses
 cargo-bundle-licenses \
