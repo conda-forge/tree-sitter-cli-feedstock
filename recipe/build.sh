@@ -5,7 +5,8 @@ set -o xtrace -o nounset -o pipefail -o errexit
 export CARGO_PROFILE_RELEASE_STRIP=symbols
 export CARGO_PROFILE_RELEASE_LTO=fat
 
-export CFLAGS="${CFLAGS} -D_BSD_SOURCE"
+# Add CFLAG here because it cannot be added any other way.
+sed -i 's/.define("_DEFAULT_SOURCE", None)/.define("_DEFAULT_SOURCE", None).define("_BSD_SOURCE", None)/' lib/binding_rust/build.rs
 
 # check licenses
 cargo-bundle-licenses \
