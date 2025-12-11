@@ -14,4 +14,4 @@ cargo-bundle-licenses \
     --output THIRDPARTY.yml
 
 # build statically linked binary with Rust
-cargo install --bins --no-track --locked --root ${PREFIX} --path cli
+cargo install --bins --no-track --locked --root ${PREFIX} --path crates/cli
