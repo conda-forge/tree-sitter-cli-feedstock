@@ -1,8 +1,12 @@
 c_compiler:
-  - clang
+  - if: unix
+    then: clang
 c_compiler_version:
-  - 19
+  - if: unix
+    then: 19
 cxx_compiler:
-  - clangxx
+  - if: unix
+    then: clangxx
 cxx_compiler_version:
-  - 19
+  - if: unix
+    then: 19

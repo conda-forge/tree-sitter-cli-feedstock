@@ -18,9 +18,10 @@ requirements:
     - ${{ compiler('c') }}
     - ${{ stdlib('c') }}
     - cargo-bundle-licenses
-    - libclang
     - if: unix
-      then: sed
+      then:
+        - libclang
+        - sed
 
 tests:
   - script:
