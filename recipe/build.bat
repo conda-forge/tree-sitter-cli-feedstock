@@ -7,7 +7,7 @@ cargo-bundle-licenses ^
     --output THIRDPARTY.yml || goto :error
 
 :: build statically linked binary with Rust
-cargo install --bins --no-track --locked --root %LIBRARY_PREFIX% --path creates\cli || goto :error
+cargo install --bins --no-track --locked --root %LIBRARY_PREFIX% --path crates\cli || goto :error
 
 goto :EOF
 
