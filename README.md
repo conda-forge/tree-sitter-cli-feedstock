@@ -29,7 +29,7 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23329&branchName=main">
             <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tree-sitter-cli-feedstock?branchName=main">
           </a>
         </summary>
@@ -38,14 +38,14 @@ Current build status
           <tbody><tr>
               <td>linux_aarch64</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23329&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tree-sitter-cli-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=23329&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tree-sitter-cli-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
